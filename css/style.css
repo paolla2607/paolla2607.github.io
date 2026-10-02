@@ -470,13 +470,12 @@ img {
 
 
 .galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 22px;
+    display: grid;
+    grid-template-columns: repeat(5, 205px);
+    gap: 30px;
     margin-top: 55px;
+    justify-content: center;
 }
-
 
 .galeria-item {
     width: 205px;
